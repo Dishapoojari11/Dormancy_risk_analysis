@@ -54,4 +54,22 @@ Full detail, including the composite Risk Score's top-10 highest-risk banks and 
 **HHI concentration by bank type** — Regional Rural Banks and Public Sector Banks run the most concentrated dormancy.
 <img width="2781" height="977" alt="02_hhi_concentration" src="https://github.com/user-attachments/assets/a62eaad8-c057-4536-81be-3b87cd220afa" />
 ---------------------------------
+## Limitations & Future Work
+
+- Bank-year level aggregation — no account-level or customer-level data to explain *why* specific accounts go dormant.
+- Only four account-type categories tracked; finer product-level detail could sharpen the HHI analysis.
+- The Risk Score's 40/40/20 weighting is a defensible modeling choice, not a fixed law — different weights would re-rank banks somewhat.
+- Natural next steps: account-level churn prediction, a cross-country comparison of unclaimed-funds frameworks, and isolating the COVID-19 effect with a proper control series.
+
+Full discussion in [`FINDINGS.md`](FINDINGS.md).
+
+## Documentation
+
+- [`FINDINGS.md`](FINDINGS.md) — detailed key findings and policy recommendations
+- [`Final_Report.pdf`](Final_Report.pdf) — the complete academic dissertation this project is based on
+- [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) — full column reference for the dataset
+
+## Author
+
+**Disha Bhoja Poojari** 
 
