@@ -4,6 +4,7 @@
 Unclaimed deposits in Indian banks increased from ₹6,835 Cr in 2015 to ₹62,314 Cr in 2024, highlighting growing concerns regarding dormant accounts, customer inactivity, and deposit management. This project investigates behavioural patterns and dormancy risk across Indian banks using machine learning, concentration analysis, and statistical testing.
 
 The study analyses data from 175 banks over a 10 year period and develops a framework to identify high-risk institutions based on dormancy growth, concentration, and behavioural characteristics.
+
 ---------------------------------------
 ## Business Problem
 
@@ -28,3 +29,11 @@ These objectives align with the dissertation's research goals.
 | Statistical validation | Kruskal-Wallis ×2, Mann-Kendall, Mann-Whitney U, Spearman correlation | Confirm patterns are statistically real, not artifacts of a small sample |
 
 ------------------------------------------
+## Key Insights
+
+- **Dormancy has grown every single year since 2015** — total system-wide unclaimed deposits rose from ₹6,835 Cr to ₹62,314 Cr (9.1×). A Mann-Kendall trend test confirms this is a real, near-perfect monotonic trend (τ = 1.0, p < 0.001), not a cyclical pattern.
+- **Banks split into three statistically distinct behavioural clusters** (K-Means, silhouette score 0.93): a stable majority, a small fast-growing group, and a "Large Legacy" group holding outsized balances.
+- **The Large Legacy cluster is 100% Public Sector Banks.** PSBs held **81.7% of all system-wide dormancy in 2024** despite being a small fraction of the 175 banks studied — the top 3 alone (SBI, PNB, Canara Bank) account for 45.4% of the total.
+- **Larger dormancy balances grow faster, not slower** — a "size-growth paradox" (Spearman ρ = 0.64, p < 0.001) that undercuts the assumption that scale brings stability.
+- **Concentration risk (HHI) varies sharply by bank type** — Regional Rural Banks run the most concentrated dormancy (mean HHI 0.72, mostly piled into one account type), while Payment Banks are the most diversified (0.08).
+- **The raw COVID-era jump in average dormancy (+153%) is not statistically significant** at α=0.05 (Mann-Whitney p = 0.11) once the high variance in the post-2020 period is accounted for — a useful reminder that a striking average and a confirmed effect aren't always the same thing.
