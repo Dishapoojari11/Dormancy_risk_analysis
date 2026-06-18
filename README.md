@@ -1,5 +1,4 @@
 # Behaviour Patterns & Dormancy Risk of Unclaimed Deposits in Indian Banks (2015–2024)
------------------------------
 ## Project Overview
 
 Unclaimed deposits in Indian banks increased from ₹6,835 Cr in 2015 to ₹62,314 Cr in 2024, highlighting growing concerns regarding dormant accounts, customer inactivity, and deposit management. This project investigates behavioural patterns and dormancy risk across Indian banks using machine learning, concentration analysis, and statistical testing.
