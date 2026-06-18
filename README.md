@@ -37,3 +37,21 @@ These objectives align with the dissertation's research goals.
 - **Larger dormancy balances grow faster, not slower** — a "size-growth paradox" (Spearman ρ = 0.64, p < 0.001) that undercuts the assumption that scale brings stability.
 - **Concentration risk (HHI) varies sharply by bank type** — Regional Rural Banks run the most concentrated dormancy (mean HHI 0.72, mostly piled into one account type), while Payment Banks are the most diversified (0.08).
 - **The raw COVID-era jump in average dormancy (+153%) is not statistically significant** at α=0.05 (Mann-Whitney p = 0.11) once the high variance in the post-2020 period is accounted for — a useful reminder that a striking average and a confirmed effect aren't always the same thing.
+  
+Full detail, including the composite Risk Score's top-10 highest-risk banks and policy implications, is in [`FINDINGS.md`](FINDINGS.md).
+-----------------------------------------
+## Visualizations
+
+**Total system-wide dormancy, 2015–2024** — a one-directional climb in every year of the dataset.
+<img width="1581" height="977" alt="01_total_dormancy_trend" src="https://github.com/user-attachments/assets/b9e9c905-d402-41a3-812e-fdb70b55df5d" />
+
+**Behavioural clusters** — three groups emerge cleanly from growth rate and prior-year balance.
+<img width="1479" height="1077" alt="04_behaviour_clusters" src="https://github.com/user-attachments/assets/2377e432-0c14-49b7-ba3e-fc30ce30010a" />
+
+**Bank type composition by cluster** — the "Large Legacy" cluster (rightmost bar) is exclusively Public Sector Banks.
+<img width="1778" height="1078" alt="05_cluster_by_banktype" src="https://github.com/user-attachments/assets/f1ad3010-1979-4968-9681-f3fe45428ee2" />
+
+**HHI concentration by bank type** — Regional Rural Banks and Public Sector Banks run the most concentrated dormancy.
+<img width="2781" height="977" alt="02_hhi_concentration" src="https://github.com/user-attachments/assets/a62eaad8-c057-4536-81be-3b87cd220afa" />
+---------------------------------
+
