@@ -1,4 +1,5 @@
 # Behaviour Patterns & Dormancy Risk of Unclaimed Deposits in Indian Banks (2015–2024)
+-----------------------------
 ## Project Overview
 
 Unclaimed deposits in Indian banks increased from ₹6,835 Cr in 2015 to ₹62,314 Cr in 2024, highlighting growing concerns regarding dormant accounts, customer inactivity, and deposit management. This project investigates behavioural patterns and dormancy risk across Indian banks using machine learning, concentration analysis, and statistical testing.
@@ -17,6 +18,7 @@ Traditional analysis focuses only on aggregate dormant deposit amounts. This pro
 * Provide insights for customer reactivation strategies
 
 These objectives align with the dissertation's research goals.
+
 ---------------------------------------------
 ## Methodology
 
@@ -39,6 +41,7 @@ These objectives align with the dissertation's research goals.
 - **The raw COVID-era jump in average dormancy (+153%) is not statistically significant** at α=0.05 (Mann-Whitney p = 0.11) once the high variance in the post-2020 period is accounted for — a useful reminder that a striking average and a confirmed effect aren't always the same thing.
   
 Full detail, including the composite Risk Score's top-10 highest-risk banks and policy implications, is in [`FINDINGS.md`](FINDINGS.md).
+
 -----------------------------------------
 ## Visualizations
 
@@ -53,6 +56,7 @@ Full detail, including the composite Risk Score's top-10 highest-risk banks and 
 
 **HHI concentration by bank type** — Regional Rural Banks and Public Sector Banks run the most concentrated dormancy.
 <img width="2781" height="977" alt="02_hhi_concentration" src="https://github.com/user-attachments/assets/a62eaad8-c057-4536-81be-3b87cd220afa" />
+
 ---------------------------------
 ## Limitations & Future Work
 
@@ -63,13 +67,15 @@ Full detail, including the composite Risk Score's top-10 highest-risk banks and 
 
 Full discussion in [`FINDINGS.md`](FINDINGS.md).
 
+----------------------------------------------------
 ## Documentation
 
 - [`FINDINGS.md`](FINDINGS.md) — detailed key findings and policy recommendations
 - [`Final_Report.pdf`](Final_Report.pdf) — the complete academic dissertation this project is based on
 - [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) — full column reference for the dataset
 
+---------------------------
 ## Author
 
-**Disha Bhoja Poojari** 
+**Disha Poojari** 
 
